@@ -1,0 +1,87 @@
+{
+  // ==============================
+  // CK3: Struggle for the Isles — VS Code Settings
+  // ==============================
+
+  // --- File Handling ---
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.gui": "plaintext",
+    "*.asset": "plaintext",
+    "*.gfx": "plaintext",
+    "*.mod": "plaintext",
+    "*.shader": "plaintext",
+    "*.txt": "plaintext",
+    "*.yml": "yaml",
+    "*.yaml": "yaml"
+  },
+
+  // --- Editor Style ---
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.rulers": [120],
+  "editor.renderWhitespace": "boundary",
+  "editor.trimAutoWhitespace": true,
+
+  // --- Line endings & encoding ---
+  "files.autoGuessEncoding": false,
+  "files.autoSave": "off",
+
+  // --- Search / Exclude (skip binary assets) ---
+  "search.exclude": {
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/gfx/**": true,
+    "**/*.dds": true,
+    "**/*.png": true,
+    "**/*.jpg": true
+  },
+  "files.watcherExclude": {
+    "**/gfx/**": true,
+    "**/localization/**": false
+  },
+
+  // --- YAML Localization ---
+  "yaml.format.enable": true,
+  "yaml.validate": true,
+  "yaml.schemas": {
+    "https://json.schemastore.org/yaml": "localization/**/*.yml"
+  },
+  "yaml.customTags": ["!trans", "!include"],
+
+  // --- Markdown ---
+  "markdownlint.config": {
+    "MD013": false,
+    "MD041": false
+  },
+
+  // --- Spell Checker ---
+  "cSpell.enableFiletypes": [
+    "markdown",
+    "plaintext",
+    "yaml"
+  ],
+  "cSpell.language": "en-GB",
+  "cSpell.words": [
+    "thegn",
+    "burh",
+    "longphort",
+    "dún",
+    "fyrd",
+    "Goidelic",
+    "Brythonic",
+    "Gallóglaigh",
+    "Hegemon",
+    "isles"
+  ],
+
+  // --- Git / Source Control ---
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreLimitWarning": true
+}

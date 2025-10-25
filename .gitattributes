@@ -1,0 +1,70 @@
+# === GLOBAL SETTINGS ===
+# Use LF line endings for everything text-based (cross-platform friendly)
+* text eol=lf
+
+# === FILE TYPES ===
+# Paradox script files
+*.txt       text diff
+*.gui       text diff
+*.mod       text diff
+*.asset     text diff
+*.gfx       text diff
+*.shader    text diff
+
+# Localization (YAML / YML)
+*.yml       text diff linguist-language=YAML working-tree-encoding=UTF-8
+*.yaml      text diff linguist-language=YAML working-tree-encoding=UTF-8
+
+# Markdown, documentation, configs
+*.md        text diff
+*.json      text diff
+*.ini       text diff
+*.csv       text diff
+*.cfg       text diff
+*.gitignore text diff
+*.gitattributes text diff
+
+# Lua or script templates
+*.lua       text diff
+*.py        text diff
+*.js        text diff
+*.sh        text eol=lf
+
+# === BINARY / NO-DIFF TYPES ===
+# Images, textures, models
+*.dds       binary
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.tga       binary
+*.gif       binary
+*.psd       binary
+*.ico       binary
+*.bmp       binary
+
+# Audio
+*.ogg       binary
+*.wav       binary
+*.mp3       binary
+*.flac      binary
+
+# 3D models or map data
+*.mesh      binary
+*.anim      binary
+*.model     binary
+*.terrain   binary
+
+# Archives and executables
+*.zip       binary
+*.7z        binary
+*.rar       binary
+*.exe       binary
+*.dll       binary
+
+# === SPECIALS ===
+# Ensure GitHub’s language stats treat this as a text-heavy mod project
+*.dds linguist-detectable=false
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+
+# === END ===

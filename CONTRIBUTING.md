@@ -1,4 +1,4 @@
-# Contributing to **Struggle for the British Isles**
+# Contributing to **Struggle for The Isles**
 
 Thanks for helping build this CK3 mod! This guide explains how to set up your environment, our coding standards, and the review process so contributions stay consistent and safe.
 
@@ -219,9 +219,9 @@ If you want to test in-game without copying:
 * Add a `.mod` stub:
 
   ```txt
-  name="Struggle for the British Isles"
+  name="Struggle for The Isles"
   path="mod/ck3-struggle-for-the-isles"
-  supported_version="1.12.*"
+  supported_version="1.17.*"
   ```
 
 (We keep a quick script in the issue thread if you need it.)

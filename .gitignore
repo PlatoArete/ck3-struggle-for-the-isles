@@ -1,0 +1,100 @@
+# ============================
+# CK3: Struggle for the Isles
+# .gitignore
+# ============================
+
+# === OS-Specific Files ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# === Editor/IDE ===
+# VS Code (workspace-specific only; .vscode/ settings are tracked)
+*.code-workspace
+.history/
+
+# Claude Code CLI (local settings only)
+.claude/
+
+# AI Agent configurations (local workflow)
+.agents/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# === Paradox Launcher & Game Files ===
+# Launcher descriptor (if using symlink workflow)
+*.mod
+!descriptor.mod
+
+# Game logs and crash dumps
+error.log
+exceptions.log
+crash_data/
+*.dmp
+
+# Save files (if testing in repo)
+*.ck3
+
+# === Temporary & Build Artifacts ===
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# Temp files
+*.tmp
+*.temp
+*.cache
+
+# === Project-Specific ===
+# Local testing scripts
+test_local.sh
+test_local.bat
+
+# Personal notes (use .design/ for shared design docs)
+NOTES.md
+TODO.personal.md
+
+# Generated localization reports (if using validation tools)
+loc_report.txt
+validation_output.txt
+
+# === Node/Python (if using build tools later) ===
+node_modules/
+*.pyc
+__pycache__/
+.pytest_cache/
+venv/
+.env
+
+# === End ===

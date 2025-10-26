@@ -1,4 +1,4 @@
-# Struggle for the British Isles — Design & Technical Outline
+# Struggle for The Isles — Design & Technical Outline
 
 ## 0) Mod Scope (MVP)
 
